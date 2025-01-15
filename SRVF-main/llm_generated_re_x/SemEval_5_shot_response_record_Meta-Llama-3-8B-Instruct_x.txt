@@ -1,0 +1,513 @@
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "worker's accurate eye" suggests that the eye is a part or component of the worker. The sentence describes the worker's eye as a crucial aspect of their work, implying that the eye is an essential part of what makes their workmanship fine. Therefore, the head entity "eye" serves as the "Component" while the tail entity "worker" serves as the "Whole".
+########################
+Component-Whole
+########################
+########################
+In the given sentence, the key phrase "worker 's accurate eye" implies thatIn the given sentence, the key phrase "worker's accurate eye" suggests that the eye is a part or component of the worker. The sentence describes the worker's eye as a crucial aspect of their work, implying that the eye is an essential part of what makes their workmanship fine. Therefore, the head entity "eye" serves as the "Component" while the tail entity "worker" serves as the "Whole".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "rotors of the generators" implies that the rotors are part of the generators, and the generators are the whole. The rotors are the components that make up the generators. Therefore, the head entity "rotors" serves as the "Component" while the tail entity "generators" serves as the "Whole".
+########################
+Component-Whole
+########################
+########################
+In the given sentence, the key phrase "rotors of the generators" implies thatIn the given sentence, the key phrase "rotors of the generators" implies that the rotors are part of the generators, and the generators are the whole. The rotors are the components that make up the generators. Therefore, the head entity "rotors" serves as the "Component" while the tail entity "generators" serves as the "Whole".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "comprises some re-issues of the previous books, as well as new titles" implies that the titles are part of the series. The series is a whole entity that contains the titles, and the titles are the components that make up the series. Therefore, the head entity "titles" serves as the "Component" while the tail entity "series" serves as the "Whole".
+########################
+Component-Whole
+########################
+########################
+In the given sentence, the key phrase "series comprises some re-issues of the previous books , as well as new titles" implies thatIn the given sentence, the key phrase "comprises some re-issues of the previous books, as well as new titles" implies that the titles are part of the series. The series is a whole entity that contains the titles, and the titles are the components that make up the series. Therefore, the head entity "titles" serves as the "Component" while the tail entity "series" serves as the "Whole".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "lying on the floor inside the house" implies that the floor is a part of the house, which is a whole entity. Therefore, the head entity "floor" serves as the "Component" while the tail entity "house" serves as the "Whole".
+########################
+Component-Whole
+########################
+########################
+In the given sentence, the key phrase "floor inside the house" implies thatIn the given sentence, the key phrase "lying on the floor inside the house" implies that the floor is a part of the house, which is a whole entity. Therefore, the head entity "floor" serves as the "Component" while the tail entity "house" serves as the "Whole".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "walls of the microwave" implies that the walls are a part of the microwave. The sentence describes the function of the walls within the microwave, which is to prevent radio waves from escaping. Therefore, the head entity "walls" serves as the "Component" while the tail entity "microwave" serves as the "Whole".
+########################
+Component-Whole
+########################
+########################
+In the given sentence, the key phrase "walls of the microwave" implies thatIn the given sentence, the key phrase "walls of the microwave" implies that the walls are a part of the microwave. The sentence describes the function of the walls within the microwave, which is to prevent radio waves from escaping. Therefore, the head entity "walls" serves as the "Component" while the tail entity "microwave" serves as the "Whole".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "told" implies that the police is the one performing the action of conveying information to the surveyor. The police is not in a direct relation with the surveyor, but rather, they are interacting with the surveyor in a specific context. Therefore, the head entity "police" and the tail entity "surveyor" do not have a clear relation such as "Agent-Patient", "Instrument-Agency", "Attribute", or "Part-Whole". The relation between the head entity "police" and the tail entity "surveyor" is "Other", indicating that the entities are not in a typical relation and the context of the sentence does not reveal a specific relation between them.
+<End of Instance>
+########################
+Other
+########################
+########################
+In the given sentence, the key phrase "police told an open government surveyor" implies thatIn the given sentence, the key phrase "told" implies that the police is the one performing the action of conveying information to the surveyor. The police is not in a direct relation with the surveyor, but rather, they are interacting with the surveyor in a specific context. Therefore, the head entity "police" and the tail entity "surveyor" do not have a clear relation such as "Agent-Patient", "Instrument-Agency", "Attribute", or "Part-Whole". The relation between the head entity "police" and the tail entity "surveyor" is "Other", indicating that the entities are not in a typical relation and the context of the sentence does not reveal a specific relation between them.<End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "has largely been on the subject of" implies that the focus is directed towards ethics. The word "on" indicates a sense of concentration or attention, and the phrase "subject of" further clarifies that the focus is centered around ethics. Therefore, the head entity "focus" serves as the entity that is directing its attention towards the tail entity "ethics". 
+<End of Instance>
+########################
+Other
+########################
+########################
+In the given sentence, the key phrase "focus has largely been on the subject of ethics" implies thatIn the given sentence, the key phrase "has largely been on the subject of" implies that the focus is directed towards ethics. The word "on" indicates a sense of concentration or attention, and the phrase "subject of" further clarifies that the focus is centered around ethics. Therefore, the head entity "focus" serves as the entity that is directing its attention towards the tail entity "ethics". <End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "investigation was concerning a series" implies that the investigation is focused on or about the series of letters. Therefore, the head entity "investigation" serves as the "Topic" while the tail entity "series" serves as the "Topic-Of".
+########################
+Other
+########################
+########################
+In the given sentence, the key phrase "investigation was concerning a series" implies thatIn the given sentence, the key phrase "investigation was concerning a series" implies that the investigation is focused on or about the series of letters. Therefore, the head entity "investigation" serves as the "Topic" while the tail entity "series" serves as the "Topic-Of".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "cost to society of" suggests that the acts being referred to have an impact or effect on society. Therefore, the head entity "society" serves as the entity that is affected by the acts, while the tail entity "acts" serves as the entity that has the impact. This type of relationship is typically referred to as "Other", as it does not fit into the typical agency or instrument roles. 
+
+<End of Instance>
+########################
+Other
+########################
+########################
+In the given sentence, the key phrase "society of various criminal acts" implies thatIn the given sentence, the key phrase "cost to society of" suggests that the acts being referred to have an impact or effect on society. Therefore, the head entity "society" serves as the entity that is affected by the acts, while the tail entity "acts" serves as the entity that has the impact. This type of relationship is typically referred to as "Other", as it does not fit into the typical agency or instrument roles. <End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "provides a deposit" implies that the institution is the source or entity that gives or offers the deposit. Therefore, the head entity "institution" serves as the "Source" while the tail entity "deposit" serves as the "Entity" being provided.
+########################
+Other
+########################
+########################
+In the given sentence, the key phrase "institution provides a deposit" implies thatIn the given sentence, the key phrase "provides a deposit" implies that the institution is the source or entity that gives or offers the deposit. Therefore, the head entity "institution" serves as the "Source" while the tail entity "deposit" serves as the "Entity" being provided.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "using one of the various audio formats" suggests that the formats are the means or tools employed by the Listeners to receive WBAI live over the internet. Therefore, the head entity "formats" serves as the "Instrument" while the tail entity "Listeners" serves as the "Agency". The Listeners are the ones who utilize the formats to receive the content, making the formats the tool or instrument used by the Listeners.
+########################
+Instrument-Agency
+########################
+########################
+In the given sentence, the key phrase "Listeners receive WBAI live over the internet -LRB- referred to as `` streaming '' -RRB- , using one of the various audio formats" implies thatIn the given sentence, the key phrase "using one of the various audio formats" suggests that the formats are the means or tools employed by the Listeners to receive WBAI live over the internet. Therefore, the head entity "formats" serves as the "Instrument" while the tail entity "Listeners" serves as the "Agency". The Listeners are the ones who utilize the formats to receive the content, making the formats the tool or instrument used by the Listeners.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "kicked the ball" implies that the footballer is the one performing the action of kicking, and the ball is the object being kicked. Therefore, the head entity "ball" serves as the "Instrument" while the tail entity "footballer" serves as the "Agency".
+########################
+Instrument-Agency
+########################
+########################
+In the given sentence, the key phrase "footballer kicked the ball" implies thatIn the given sentence, the key phrase "kicked the ball" implies that the footballer is the one performing the action of kicking, and the ball is the object being kicked. Therefore, the head entity "ball" serves as the "Instrument" while the tail entity "footballer" serves as the "Agency".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "made use of" implies that the army is the entity that employs or utilizes the gas. Therefore, the head entity "gas" serves as the "Instrument" while the tail entity "army" serves as the "Agency".
+########################
+Instrument-Agency
+########################
+########################
+In the given sentence, the key phrase "army made use of a nerve gas" implies thatIn the given sentence, the key phrase "made use of" implies that the army is the entity that employs or utilizes the gas. Therefore, the head entity "gas" serves as the "Instrument" while the tail entity "army" serves as the "Agency".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "therapist treats the patient with a certain kind of manual therapy" implies that the therapy is the tool employed by the therapist to treat the patient. Therefore, the head entity "therapy" serves as the "Instrument" while the tail entity "therapist" servers as the "Agency".
+########################
+Instrument-Agency
+########################
+########################
+In the given sentence, the key phrase "therapist treats the patient with a certain kind of manual therapy" implies thatIn the given sentence, the key phrase "therapist treats the patient with a certain kind of manual therapy" implies that the therapy is the tool employed by the therapist to treat the patient. Therefore, the head entity "therapy" serves as the "Instrument" while the tail entity "therapist" servers as the "Agency".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "anvil of the Romani -LRB- gypsy -RRB- blacksmiths" implies that the anvil is the tool or instrument used by the blacksmiths. The phrase "of the Romani -LRB- gypsy -RRB- blacksmiths" specifies that the blacksmiths are the ones who use the anvil. Therefore, the head entity "anvil" serves as the "Instrument" while the tail entity "blacksmiths" serves as the "Agency". This indicates that the relation between the head entity "anvil" and the tail entity "blacksmiths" is indeed "Instrument-Agency".
+<End of Instance>
+########################
+Instrument-Agency
+########################
+########################
+In the given sentence, the key phrase "anvil of the Romani -LRB- gypsy -RRB- blacksmiths" implies thatIn the given sentence, the key phrase "anvil of the Romani -LRB- gypsy -RRB- blacksmiths" implies that the anvil is the tool or instrument used by the blacksmiths. The phrase "of the Romani -LRB- gypsy -RRB- blacksmiths" specifies that the blacksmiths are the ones who use the anvil. Therefore, the head entity "anvil" serves as the "Instrument" while the tail entity "blacksmiths" serves as the "Agency". This indicates that the relation between the head entity "anvil" and the tail entity "blacksmiths" is indeed "Instrument-Agency".<End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "aurora of polar bears" implies that the polar bears are a part of the aurora. Therefore, the head entity "polar bears" serves as the "Member" while the tail entity "aurora" serves as the "Collection". The phrase "of" is a preposition indicating a part-whole relationship, suggesting that the polar bears are a subset of the aurora.
+########################
+Member-Collection
+########################
+########################
+In the given sentence, the key phrase "aurora of polar bears" implies thatIn the given sentence, the key phrase "aurora of polar bears" implies that the polar bears are a part of the aurora. Therefore, the head entity "polar bears" serves as the "Member" while the tail entity "aurora" serves as the "Collection". The phrase "of" is a preposition indicating a part-whole relationship, suggesting that the polar bears are a subset of the aurora.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "peep of bantam chickens" implies that the "peep" is a group or a collection of "chickens". The phrase "of" is a preposition indicating that "peep" is a subset or a part of "chickens". Therefore, the head entity "chickens" serves as the "Collection" and the tail entity "peep" serves as the "Member". 
+<End of Instance>
+########################
+Member-Collection
+########################
+########################
+In the given sentence, the key phrase "peep of bantam chickens" implies thatIn the given sentence, the key phrase "peep of bantam chickens" implies that the "peep" is a group or a collection of "chickens". The phrase "of" is a preposition indicating that "peep" is a subset or a part of "chickens". Therefore, the head entity "chickens" serves as the "Collection" and the tail entity "peep" serves as the "Member". <End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "fistful of bright orange coupons" implies that the fistful is a container or a unit that holds the coupons. Therefore, the head entity "coupons" serves as the "Member" while the tail entity "fistful" serves as the "Collection". The phrase "a fistful of" is a common idiomatic expression that indicates a quantity or a unit, in this case, a handful, which is a collection of something. Therefore, the relation between the head entity "coupons" and the tail entity "fistful" is indeed "Member-Collection".
+<End of Instance>
+########################
+Member-Collection
+########################
+########################
+In the given sentence, the key phrase "fistful of bright orange coupons" implies thatIn the given sentence, the key phrase "fistful of bright orange coupons" implies that the fistful is a container or a unit that holds the coupons. Therefore, the head entity "coupons" serves as the "Member" while the tail entity "fistful" serves as the "Collection". The phrase "a fistful of" is a common idiomatic expression that indicates a quantity or a unit, in this case, a handful, which is a collection of something. Therefore, the relation between the head entity "coupons" and the tail entity "fistful" is indeed "Member-Collection".<End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "deck of cards" implies that the cards are a part of the deck. The head entity "cards" serves as the "Member" and the tail entity "deck" serves as the "Collection". The sentence suggests that the cards are contained within or belong to the deck, thus establishing a "Member-Collection" relationship between them.
+########################
+Member-Collection
+########################
+########################
+In the given sentence, the key phrase "deck of cards" implies thatIn the given sentence, the key phrase "deck of cards" implies that the cards are a part of the deck. The head entity "cards" serves as the "Member" and the tail entity "deck" serves as the "Collection". The sentence suggests that the cards are contained within or belong to the deck, thus establishing a "Member-Collection" relationship between them.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "clique of renegades" implies that the renegades are part of the clique, and the clique is a collection of people or entities that the renegades belong to. Therefore, the head entity "renegades" serves as the "Member" while the tail entity "clique" serves as the "Collection".
+########################
+Member-Collection
+########################
+########################
+In the given sentence, the key phrase "clique of renegades" implies thatIn the given sentence, the key phrase "clique of renegades" implies that the renegades are part of the clique, and the clique is a collection of people or entities that the renegades belong to. Therefore, the head entity "renegades" serves as the "Member" while the tail entity "clique" serves as the "Collection".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "makes a squelching noise" implies that the noise is a direct result or consequence of the species' actions or characteristics. Therefore, the head entity "species" serves as the "Cause" while the tail entity "noise" serves as the "Effect".
+########################
+Cause-Effect
+########################
+########################
+In the given sentence, the key phrase "species makes a squelching noise" implies thatIn the given sentence, the key phrase "makes a squelching noise" implies that the noise is a direct result or consequence of the species' actions or characteristics. Therefore, the head entity "species" serves as the "Cause" while the tail entity "noise" serves as the "Effect".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "swelling of the vocal fold mucosa is caused by" implies that the smoking is the reason or the factor that leads to the occurrence of the swelling. Therefore, the head entity "smoking" serves as the "Cause" while the tail entity "swelling" serves as the "Effect".
+########################
+Cause-Effect
+########################
+########################
+In the given sentence, the key phrase "swelling of the vocal fold mucosa is caused by smoking" implies thatIn the given sentence, the key phrase "swelling of the vocal fold mucosa is caused by" implies that the smoking is the reason or the factor that leads to the occurrence of the swelling. Therefore, the head entity "smoking" serves as the "Cause" while the tail entity "swelling" serves as the "Effect".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "steam caused a backpressure" implies that the presence or action of the steam leads to the creation or occurrence of the backpressure. Therefore, the head entity "steam" serves as the "Cause" while the tail entity "backpressure" serves as the "Effect".
+########################
+Cause-Effect
+########################
+########################
+In the given sentence, the key phrase "steam caused a backpressure" implies thatIn the given sentence, the key phrase "steam caused a backpressure" implies that the presence or action of the steam leads to the creation or occurrence of the backpressure. Therefore, the head entity "steam" serves as the "Cause" while the tail entity "backpressure" serves as the "Effect".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "damage from roof leaks, plumbing leaks or flooding lead to the growth" implies that the damage is the cause that leads to the growth of molds. Therefore, the head entity "damage" serves as the "Cause" while the tail entity "growth" serves as the "Effect".
+########################
+Cause-Effect
+########################
+########################
+In the given sentence, the key phrase "damage from roof leaks , plumbing leaks or flooding lead to the growth" implies thatIn the given sentence, the key phrase "damage from roof leaks, plumbing leaks or flooding lead to the growth" implies that the damage is the cause that leads to the growth of molds. Therefore, the head entity "damage" serves as the "Cause" while the tail entity "growth" serves as the "Effect".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+the drugs are the reason or explanation for the occurrence of Birth defects. Therefore, the head entity "drugs" serves as the "Cause" while the tail entity "Birth defects" serves as the "Effect".
+########################
+Cause-Effect
+########################
+########################
+In the given sentence, the key phrase "Birth defects are caused by drugs" implies thatthe drugs are the reason or explanation for the occurrence of Birth defects. Therefore, the head entity "drugs" serves as the "Cause" while the tail entity "Birth defects" serves as the "Effect".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "blown down into the fireplace" suggests that the soot is being transported or moved towards the fireplace. The soot is the entity being moved, and the fireplace is the destination where it is being moved to. Therefore, the head entity "soot" serves as the "Entity" and the tail entity "fireplace" serves as the "Destination".
+########################
+Entity-Destination
+########################
+########################
+In the given sentence, the key phrase "soot has been blown down into the fireplace" implies thatIn the given sentence, the key phrase "blown down into the fireplace" suggests that the soot is being transported or moved towards the fireplace. The soot is the entity being moved, and the fireplace is the destination where it is being moved to. Therefore, the head entity "soot" serves as the "Entity" and the tail entity "fireplace" serves as the "Destination".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "accidently poured water into the gas tank" implies that the water is being poured into the tank, indicating a movement or transfer of the water from one location to another. The water is the entity being moved, and the tank is the destination where it is being poured. Therefore, the head entity "water" serves as the "Entity" while the tail entity "tank" serves as the "Destination".
+########################
+Entity-Destination
+########################
+########################
+In the given sentence, the key phrase "water into the gas tank" implies thatIn the given sentence, the key phrase "accidently poured water into the gas tank" implies that the water is being poured into the tank, indicating a movement or transfer of the water from one location to another. The water is the entity being moved, and the tank is the destination where it is being poured. Therefore, the head entity "water" serves as the "Entity" while the tail entity "tank" serves as the "Destination".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "released arsenic into the groundwater" implies that the arsenic is the substance that is being transferred or moved towards the groundwater. Therefore, the head entity "arsenic" serves as the "Entity" and the tail entity "groundwater" serves as the "Destination".
+########################
+Entity-Destination
+########################
+########################
+In the given sentence, the key phrase "arsenic into the groundwater" implies thatIn the given sentence, the key phrase "released arsenic into the groundwater" implies that the arsenic is the substance that is being transferred or moved towards the groundwater. Therefore, the head entity "arsenic" serves as the "Entity" and the tail entity "groundwater" serves as the "Destination".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "poured money into" implies that the money is being directed towards or allocated to the schools. The word "into" suggests a movement of the money towards the schools, which implies a destination. Therefore, the head entity "money" serves as the "Entity" and the tail entity "schools" serves as the "Destination", indicating that the money is being directed towards the schools.
+########################
+Entity-Destination
+########################
+########################
+In the given sentence, the key phrase "money into schools" implies thatIn the given sentence, the key phrase "poured money into" implies that the money is being directed towards or allocated to the schools. The word "into" suggests a movement of the money towards the schools, which implies a destination. Therefore, the head entity "money" serves as the "Entity" and the tail entity "schools" serves as the "Destination", indicating that the money is being directed towards the schools.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "wine in a cradle" implies that the wine is being placed or held in the cradle. The cradle is not just a physical object, but it's also a destination or a location where the wine is being held. Therefore, the head entity "wine" serves as the "Entity" and the tail entity "cradle" serves as the "Destination".
+########################
+Entity-Destination
+########################
+########################
+In the given sentence, the key phrase "wine in a cradle" implies thatIn the given sentence, the key phrase "wine in a cradle" implies that the wine is being placed or held in the cradle. The cradle is not just a physical object, but it's also a destination or a location where the wine is being held. Therefore, the head entity "wine" serves as the "Entity" and the tail entity "cradle" serves as the "Destination".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "with new pajamas in it" suggests that the suitcase contains the pajamas. Therefore, the head entity "pajamas" serves as the "Content" and the tail entity "suitcase" serves as the "Container".
+########################
+Content-Container
+########################
+########################
+In the given sentence, the key phrase "suitcase with new pajamas" implies thatIn the given sentence, the key phrase "with new pajamas in it" suggests that the suitcase contains the pajamas. Therefore, the head entity "pajamas" serves as the "Content" and the tail entity "suitcase" serves as the "Container".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "fueltruck was contained in a large box" implies that the fueltruck is the entity being contained, and the box is the entity doing the containing. Therefore, the head entity "fueltruck" serves as the "Content" while the tail entity "box" serves as the "Container".
+########################
+Content-Container
+########################
+########################
+In the given sentence, the key phrase "fueltruck was contained in a large box" implies thatIn the given sentence, the key phrase "fueltruck was contained in a large box" implies that the fueltruck is the entity being contained, and the box is the entity doing the containing. Therefore, the head entity "fueltruck" serves as the "Content" while the tail entity "box" serves as the "Container".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "bottle full of liquid" implies that the liquid is the content or substance contained within the bottle. Therefore, the head entity "liquid" serves as the "Content" while the tail entity "bottle" serves as the "Container". This relationship suggests that the liquid is held or stored within the bottle, making "Content-Container" the appropriate relation type between the two entities.
+
+<End of Instance>
+########################
+Content-Container
+########################
+########################
+In the given sentence, the key phrase "bottle full of liquid" implies thatIn the given sentence, the key phrase "bottle full of liquid" implies that the liquid is the content or substance contained within the bottle. Therefore, the head entity "liquid" serves as the "Content" while the tail entity "bottle" serves as the "Container". This relationship suggests that the liquid is held or stored within the bottle, making "Content-Container" the appropriate relation type between the two entities.<End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "tank was full of molasses" implies that the molasses is the content or substance that fills the tank. Therefore, the head entity "molasses" serves as the "Content" while the tail entity "tank" serves as the "Container".
+########################
+Content-Container
+########################
+########################
+In the given sentence, the key phrase "tank was full of molasses" implies thatIn the given sentence, the key phrase "tank was full of molasses" implies that the molasses is the content or substance that fills the tank. Therefore, the head entity "molasses" serves as the "Content" while the tail entity "tank" serves as the "Container".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "was in a cabinet" suggests that the plastic container is contained within the cabinet. Therefore, the head entity "plastic container" serves as the "Content" while the tail entity "cabinet" serves as the "Container". This relationship indicates that the plastic container is a part of or contained within the cabinet.
+########################
+Content-Container
+########################
+########################
+In the given sentence, the key phrase "plastic container , which was in a cabinet" implies thatIn the given sentence, the key phrase "was in a cabinet" suggests that the plastic container is contained within the cabinet. Therefore, the head entity "plastic container" serves as the "Content" while the tail entity "cabinet" serves as the "Container". This relationship indicates that the plastic container is a part of or contained within the cabinet.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "technique has been clearly explained in a previous issue" implies that the issue is the medium or container that carries the information about the technique. Therefore, the head entity "issue" serves as the "Message" while the tail entity "technique" serves as the "Topic".
+########################
+Message-Topic
+########################
+########################
+In the given sentence, the key phrase "technique has been clearly explained in a previous issue" implies thatIn the given sentence, the key phrase "technique has been clearly explained in a previous issue" implies that the issue is the medium or container that carries the information about the technique. Therefore, the head entity "issue" serves as the "Message" while the tail entity "technique" serves as the "Topic".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "symposium with intent to discuss the dissemination" implies that the symposium is the platform or event where the topic of dissemination is discussed. Therefore, the head entity "symposium" serves as the "Message" and the tail entity "dissemination" serves as the "Topic". The symposium is the medium or platform through which the dissemination of difficult imagery is discussed, hence the relation between the head entity "symposium" and the tail entity "dissemination" is indeed "Message-Topic".
+<End of Instance>
+########################
+Message-Topic
+########################
+########################
+In the given sentence, the key phrase "symposium with intent to discuss the dissemination" implies thatIn the given sentence, the key phrase "symposium with intent to discuss the dissemination" implies that the symposium is the platform or event where the topic of dissemination is discussed. Therefore, the head entity "symposium" serves as the "Message" and the tail entity "dissemination" serves as the "Topic". The symposium is the medium or platform through which the dissemination of difficult imagery is discussed, hence the relation between the head entity "symposium" and the tail entity "dissemination" is indeed "Message-Topic".<End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "debate swirls over the purpose" implies that the debate is centered around the topic of purpose. Therefore, the head entity "debate" serves as the "Message" while the tail entity "purpose" serves as the "Topic".
+########################
+Message-Topic
+########################
+########################
+In the given sentence, the key phrase "debate swirls over the purpose" implies thatIn the given sentence, the key phrase "debate swirls over the purpose" implies that the debate is centered around the topic of purpose. Therefore, the head entity "debate" serves as the "Message" while the tail entity "purpose" serves as the "Topic".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "central theme of the book is" implies that the development is the main topic or subject matter of the book. Therefore, the head entity "book" serves as the "Message" while the tail entity "development" serves as the "Topic". The central theme of the book is the development of the idea of congruence, indicating that the book is centered around the concept of development.
+########################
+Message-Topic
+########################
+########################
+In the given sentence, the key phrase "book is the development" implies thatIn the given sentence, the key phrase "central theme of the book is" implies that the development is the main topic or subject matter of the book. Therefore, the head entity "book" serves as the "Message" while the tail entity "development" serves as the "Topic". The central theme of the book is the development of the idea of congruence, indicating that the book is centered around the concept of development.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "slides explaining nanotechnology" implies that the slides are the medium or the carrier of the information about nanotechnology. Therefore, the head entity "nanotechnology" serves as the "Topic" and the tail entity "slides" serves as the "Message".
+########################
+Message-Topic
+########################
+########################
+In the given sentence, the key phrase "slides explaining nanotechnology" implies thatIn the given sentence, the key phrase "slides explaining nanotechnology" implies that the slides are the medium or the carrier of the information about nanotechnology. Therefore, the head entity "nanotechnology" serves as the "Topic" and the tail entity "slides" serves as the "Message".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "of the German professor's paper" implies that the professor is the creator or producer of the paper. Therefore, the head entity "paper" serves as the "Product" while the tail entity "professor" serves as the "Producer".
+########################
+Product-Producer
+########################
+########################
+In the given sentence, the key phrase "professor 's paper" implies thatIn the given sentence, the key phrase "of the German professor's paper" implies that the professor is the creator or producer of the paper. Therefore, the head entity "paper" serves as the "Product" while the tail entity "professor" serves as the "Producer".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "works by the quilters" implies that the "quilters" are the creators or producers of the "works". Therefore, the head entity "works" serves as the "Product" while the tail entity "quilters" serves as the "Producer".
+########################
+Product-Producer
+########################
+########################
+In the given sentence, the key phrase "works by the quilters" implies thatIn the given sentence, the key phrase "works by the quilters" implies that the "quilters" are the creators or producers of the "works". Therefore, the head entity "works" serves as the "Product" while the tail entity "quilters" serves as the "Producer".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "judge's condemnatory report" implies that the report is the output or product produced by the judge. Therefore, the head entity "report" serves as the "Product" while the tail entity "judge" serves as the "Producer".
+########################
+Product-Producer
+########################
+########################
+In the given sentence, the key phrase "judge 's condemnatory report" implies thatIn the given sentence, the key phrase "judge's condemnatory report" implies that the report is the output or product produced by the judge. Therefore, the head entity "report" serves as the "Product" while the tail entity "judge" serves as the "Producer".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "Students and local residents have worked together to produce 10000 bricks" implies that the students, along with the local residents, are the ones responsible for creating or manufacturing the bricks. Therefore, the head entity "bricks" serves as the "Product" and the tail entity "Students" serves as the "Producer".
+########################
+Product-Producer
+########################
+########################
+In the given sentence, the key phrase "Students and local residents have worked together to produce 10000 bricks" implies thatIn the given sentence, the key phrase "Students and local residents have worked together to produce 10000 bricks" implies that the students, along with the local residents, are the ones responsible for creating or manufacturing the bricks. Therefore, the head entity "bricks" serves as the "Product" and the tail entity "Students" serves as the "Producer".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "have pressed the snow into a glacial" suggests that the feet are the entities responsible for shaping the track. The phrase "have pressed" implies a causative action, indicating that the feet are the agents that created the track. Therefore, the head entity "track" serves as the "Product" while the tail entity "feet" serves as the "Producer".
+########################
+Product-Producer
+########################
+########################
+In the given sentence, the key phrase "feet have pressed the snow into a glacial track" implies thatIn the given sentence, the key phrase "have pressed the snow into a glacial" suggests that the feet are the entities responsible for shaping the track. The phrase "have pressed" implies a causative action, indicating that the feet are the agents that created the track. Therefore, the head entity "track" serves as the "Product" while the tail entity "feet" serves as the "Producer".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "identity is rooted in an ancient heritage" implies that the identity is derived from or originated from the heritage. Therefore, the head entity "identity" serves as the "Entity" and the tail entity "heritage" serves as the "Origin".
+########################
+Entity-Origin
+########################
+########################
+In the given sentence, the key phrase "identity is rooted in an ancient heritage" implies thatIn the given sentence, the key phrase "identity is rooted in an ancient heritage" implies that the identity is derived from or originated from the heritage. Therefore, the head entity "identity" serves as the "Entity" and the tail entity "heritage" serves as the "Origin".
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "pottery by a friend" implies that the pottery is the entity that originates or comes from the friend. Therefore, the head entity "pottery" serves as the "Entity" while the tail entity "friend" serves as the "Origin". The friend is the source or origin of the pottery, which is being given to the speaker.
+########################
+Entity-Origin
+########################
+########################
+In the given sentence, the key phrase "pottery by a friend" implies thatIn the given sentence, the key phrase "pottery by a friend" implies that the pottery is the entity that originates or comes from the friend. Therefore, the head entity "pottery" serves as the "Entity" while the tail entity "friend" serves as the "Origin". The friend is the source or origin of the pottery, which is being given to the speaker.
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "drug release from the conjugates" implies that the conjugates are the source or origin from which the drug is released. Therefore, the head entity "conjugates" serves as the "Entity-Origin" while the tail entity "drug" serves as the "Entity-Extracted". The sentence suggests that the conjugates are the starting point or source of the drug, and the drug is being released or extracted from them. 
+
+<End of Instance>
+########################
+Entity-Origin
+########################
+########################
+In the given sentence, the key phrase "drug release from the conjugates" implies thatIn the given sentence, the key phrase "drug release from the conjugates" implies that the conjugates are the source or origin from which the drug is released. Therefore, the head entity "conjugates" serves as the "Entity-Origin" while the tail entity "drug" serves as the "Entity-Extracted". The sentence suggests that the conjugates are the starting point or source of the drug, and the drug is being released or extracted from them. <End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "fell from six-week peaks" suggests that the dollar originated from the peaks and is now falling. Therefore, the head entity "peaks" serves as the origin or starting point, and the tail entity "dollar" is the entity that originated from that point. As a result, the relation between the head entity "peaks" and the tail entity "dollar" is "Entity-Origin".
+<End of Instance>
+########################
+Entity-Origin
+########################
+########################
+In the given sentence, the key phrase "dollar fell from six-week peaks" implies thatIn the given sentence, the key phrase "fell from six-week peaks" suggests that the dollar originated from the peaks and is now falling. Therefore, the head entity "peaks" serves as the origin or starting point, and the tail entity "dollar" is the entity that originated from that point. As a result, the relation between the head entity "peaks" and the tail entity "dollar" is "Entity-Origin".<End of Instance>
+########################
+
+
+%%%%%%%%%%%%%%%%%%%%%% prompt %%%%%%%%%%%%%%%%%%%%%%
+In the given sentence, the key phrase "derived from an external power source" implies that the source is the origin or the starting point of the energy. Therefore, the head entity "energy" serves as the "Entity" and the tail entity "source" serves as the "Origin".
+########################
+Entity-Origin
+########################
+########################
+In the given sentence, the key phrase "energy is derived from an external power source" implies thatIn the given sentence, the key phrase "derived from an external power source" implies that the source is the origin or the starting point of the energy. Therefore, the head entity "energy" serves as the "Entity" and the tail entity "source" serves as the "Origin".
+########################
+
+

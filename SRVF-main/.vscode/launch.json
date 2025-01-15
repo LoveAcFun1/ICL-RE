@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python":"/data/miniconda3/envs/env-3.10.6/bin/python",
+            "args": [
+                "--dataset", "SemEval",
+                "--k_shot", "5",
+                "--llm_type", "Meta-Llama-3-8B-Instruct",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "3"
+            },
+        }
+    ]
+}

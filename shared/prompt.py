@@ -1,9 +1,11 @@
 import json
-from shared.result import get_results_select
+import math
+# from shared.result import get_results_select
 
 
 class instance:
     def __init__(self, tmp_dict):
+        self.sen_len = len(tmp_dict["sentences"][0])
         self.sentence = " ".join(tmp_dict["sentences"][0])
         self.id = tmp_dict["doc_key"]
         self.rel = self.get_relation(tmp_dict)
@@ -13,6 +15,8 @@ class instance:
         obj_head = tmp_dict["ner"][0][1][0]
         obj_tail = tmp_dict["ner"][0][1][1] + 1
 
+        self.ent_dis = abs(obj_head - sub_head)
+
         self.head = " ".join(tmp_dict["sentences"][0][sub_head:sub_tail])
         self.head_type = tmp_dict["ner"][0][0][2]
         self.tail = " ".join(tmp_dict["sentences"][0][obj_head:obj_tail])
@@ -20,6 +24,11 @@ class instance:
 
         self.reference = ("The relation between \"" + self.head + "\" and \""
                           + self.tail + "\" in the sentence \"" + self.sentence + "\"")
+        # self.reference = ("Given that the length of a sentence is "+ str(self.sen_len) +" and the distance between entities is "+str(self.ent_dis)+", please judge the relation between \"" + self.head + "\" and \""
+        #                   + self.tail + "\" in the sentence \"" + self.sentence + "\"")
+        # self.reference = ("The relation between \"" + self.head + "\" with type "+ self.head_type + " and \""
+        #                   + self.tail + "\" with type "+ self.tail_type + " in the sentence \"" + self.sentence + "\"")
+
         self.lm_mask = ("The relation between \"" + self.head + "\" and \""
                           + self.tail + "\" in the sentence \"" + self.sentence + "\" is <mask>.")
         self.context = "\nContext: " + self.sentence + "\n"
@@ -38,68 +47,68 @@ class instance:
                   + self.sentence + "\"?")
         return reason
 
-    def get_self_error(self, tmp_dict, demo, reltoid, idtoprompt, args):
-        example_prompt = ""
-        prompt_list, subject, target = generate_select_auto_prompt(
-                tmp_dict, example_prompt, reltoid, 
-                args.no_na, args.reasoning, args)
+    # def get_self_error(self, tmp_dict, demo, reltoid, idtoprompt, args):
+    #     example_prompt = ""
+    #     prompt_list, subject, target = generate_select_auto_prompt(
+    #             tmp_dict, example_prompt, reltoid, 
+    #             args.no_na, args.reasoning, args)
 
-        pred, prob_on_rel, prob = get_results_select(
-                demo, prompt_list, reltoid, idtoprompt, 
-                args.verbalize, args)
+    #     pred, prob_on_rel, prob = get_results_select(
+    #             demo, prompt_list, reltoid, idtoprompt, 
+    #             args.verbalize, args)
 
-        if reltoid[self.rel] == pred:
-            while(True):
-                try:
-                    results, probs = demo.get_multiple_sample(
-                            self.get_reason(idtoprompt, reltoid))
-                    break
-                except:
-                    continue
+    #     if reltoid[self.rel] == pred:
+    #         while(True):
+    #             try:
+    #                 results, probs = demo.get_multiple_sample(
+    #                         self.get_reason(idtoprompt, reltoid))
+    #                 break
+    #             except:
+    #                 continue
 
-            if args.structure:
-                prompt_query = (self.prompt + self.clue
-                                + results[0] + self.pred + 
-                                idtoprompt[reltoid[self.rel]] + "\n")
-            else:
-                prompt_query = (self.context
-                                + "Given the context, the relation between " 
-                                + self.head + " and " + self.tail 
-                                + " is " + idtoprompt[reltoid[self.rel]] 
-                                + ". It is because: \n" + results[0] + "\n")
-        else:
-            prompt_list = generate_self_error_prompt(
-                    tmp_dict, example_prompt, reltoid, 
-                    args.no_na, args.reasoning, args)
-            task_prompt = prompt_list[0]
-            query = (task_prompt + self.context + "Given the context, "
-                     +"what are the clues that lead to the relation between "
-                     +self.head + " and " + self.tail + " being " + idtoprompt[reltoid[self.rel]]
-                     + ", but not " + idtoprompt[pred] + " ?")
+    #         if args.structure:
+    #             prompt_query = (self.prompt + self.clue
+    #                             + results[0] + self.pred + 
+    #                             idtoprompt[reltoid[self.rel]] + "\n")
+    #         else:
+    #             prompt_query = (self.context
+    #                             + "Given the context, the relation between " 
+    #                             + self.head + " and " + self.tail 
+    #                             + " is " + idtoprompt[reltoid[self.rel]] 
+    #                             + ". It is because: \n" + results[0] + "\n")
+    #     else:
+    #         prompt_list = generate_self_error_prompt(
+    #                 tmp_dict, example_prompt, reltoid, 
+    #                 args.no_na, args.reasoning, args)
+    #         task_prompt = prompt_list[0]
+    #         query = (task_prompt + self.context + "Given the context, "
+    #                  +"what are the clues that lead to the relation between "
+    #                  +self.head + " and " + self.tail + " being " + idtoprompt[reltoid[self.rel]]
+    #                  + ", but not " + idtoprompt[pred] + " ?")
             
             
-            while(True):
-                try:
-                    results, probs = demo.get_multiple_sample(query)
-                    break
-                except:
-                    continue
+    #         while(True):
+    #             try:
+    #                 results, probs = demo.get_multiple_sample(query)
+    #                 break
+    #             except:
+    #                 continue
 
-            #print("OK")
-            #print(query)
-            #print(results[0])
-            if args.structure:
-                prompt_query = (self.prompt + self.clue
-                                + results[0] + self.pred + 
-                                idtoprompt[reltoid[self.rel]] + "\n")
-            else:
-                prompt_query = (self.context
-                                + "Given the context, the relation between " 
-                                + self.head + " and " + self.tail 
-                                + " is " + idtoprompt[reltoid[self.rel]] 
-                                + ". It is because: \n" + results[0] + "\n")
-        #print(prompt_query)
-        return prompt_query
+    #         #print("OK")
+    #         #print(query)
+    #         #print(results[0])
+    #         if args.structure:
+    #             prompt_query = (self.prompt + self.clue
+    #                             + results[0] + self.pred + 
+    #                             idtoprompt[reltoid[self.rel]] + "\n")
+    #         else:
+    #             prompt_query = (self.context
+    #                             + "Given the context, the relation between " 
+    #                             + self.head + " and " + self.tail 
+    #                             + " is " + idtoprompt[reltoid[self.rel]] 
+    #                             + ". It is because: \n" + results[0] + "\n")
+    #     #print(prompt_query)
+    #     return prompt_query
 
     def get_correct_reason(self, demo, idtoprompt, reltoid, args):
         if True:
